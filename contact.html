@@ -1,0 +1,35 @@
+
+<!-- The start of the structure of my form -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue Contact Form</title>
+  <h1> Contact Form! </h1>
+ <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Paceholder names that will be in the textbox for users to enter their information -->
+
+<div id="app">
+  <contact-form
+    name-placeholder="Enter your name"
+    email-placeholder="Enter your email"
+    message-placeholder="Enter your message"
+    button-text="Send Message">
+  </contact-form>
+</div>
+
+<!-- Linking it to the Vue javascript file -->
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
